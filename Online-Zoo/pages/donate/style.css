@@ -639,6 +639,7 @@ nav ul li .nav__item_active {
 @media (max-width: 1599px) {
   .donate__amount {
     margin: 0 20px;
+
   }
 }
 
@@ -859,29 +860,31 @@ nav ul li .nav__item_active {
 .donate__amount_input {
   position: relative;
   margin-bottom: 6px;
+  margin-left: 36%;
 }
 
 @media (max-width: 1599px) {
   .donate__amount_input {
-    margin-left: -42px;
+    margin-left: 36%;
   }
 }
 
 @media (max-width: 1599px) {
   .donate__amount_input {
-    margin-left: 10px;
+    margin-left: 36%;
   }
 }
 
 @media (max-width: 999px) {
   .donate__amount_input {
     margin-bottom: 44px;
+    margin-left: 36%;
   }
 }
 
 @media (max-width: 639px) {
   .donate__amount_input {
-    margin-left: 0;
+    margin-left: 25%;
     margin-bottom: 32px;
   }
 }
@@ -897,6 +900,7 @@ nav ul li .nav__item_active {
   font-size: 16px;
   line-height: 140%;
   color: #929699;
+ 
 }
 
 @media (max-width: 999px) {
